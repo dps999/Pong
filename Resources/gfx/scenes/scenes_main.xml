@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texture version="1" file="scenes_main.pvr.ccz" type="pvrccz" width="1606" height="2042" pixelformat="RGBA_8888" minfilter="linear" magfilter="linear" wrapt="clamp" wraps="clamp" premultiplyalpha="false">
+    <!-- Created with TexturePacker http://texturepacker.com -->
+    <!-- $TexturePacker:SmartUpdate:e3db85c8597c0643b6186eaba677b97b$ -->
+    <textureregion id="0" src="arrow.png" x="471" y="1458" width="60" height="42" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="60" srcheight="42"/>
+    <textureregion id="1" src="button.png" x="345" y="1540" width="120" height="110" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="120" srcheight="110"/>
+    <textureregion id="2" src="button_info.png" x="283" y="1652" width="279" height="254" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="279" srcheight="254"/>
+    <textureregion id="3" src="button_loop.png" x="96" y="1284" width="279" height="254" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="279" srcheight="254"/>
+    <textureregion id="4" src="button_play.png" x="2" y="1670" width="279" height="254" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="279" srcheight="254"/>
+    <textureregion id="5" src="lite.png" x="564" y="1611" width="184" height="157" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="184" srcheight="157"/>
+    <textureregion id="6" src="lock.png" x="467" y="1506" width="103" height="103" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="103" srcheight="103"/>
+    <textureregion id="7" src="lvl_nomber.png" x="572" y="1500" width="102" height="102" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="102" srcheight="102"/>
+    <textureregion id="8" src="main_font.png" x="533" y="1458" width="280" height="40" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="280" srcheight="40"/>
+    <textureregion id="9" src="main_menu.png" x="804" y="2" width="800" height="1280" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="800" srcheight="1280"/>
+    <textureregion id="10" src="no-ads.png" x="96" y="1540" width="125" height="125" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="125" srcheight="125"/>
+    <textureregion id="11" src="options.png" x="377" y="1284" width="92" height="220" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="92" srcheight="220"/>
+    <textureregion id="12" src="patch.png" x="564" y="1770" width="164" height="78" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="164" srcheight="78"/>
+    <textureregion id="13" src="patch_left.png" x="676" y="1500" width="140" height="86" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="140" srcheight="86"/>
+    <textureregion id="14" src="quit.png" x="471" y="1284" width="455" height="172" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="455" srcheight="172"/>
+    <textureregion id="15" src="settings.png" x="223" y="1540" width="120" height="110" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="120" srcheight="110"/>
+    <textureregion id="16" src="sky.png" x="2" y="2" width="800" height="1280" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="800" srcheight="1280"/>
+    <textureregion id="17" src="social.png" x="2" y="1284" width="92" height="384" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="92" srcheight="384"/>
+    <textureregion id="18" src="sound_menu_off.png" x="407" y="1506" width="25" height="25" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="25" srcheight="25"/>
+    <textureregion id="19" src="sound_menu_on.png" x="564" y="1850" width="70" height="54" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="70" srcheight="54"/>
+    <textureregion id="20" src="stras_yellow.png" x="377" y="1506" width="28" height="28" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="28" srcheight="28"/>
+    <textureregion id="21" src="zzz.png" x="2" y="1926" width="615" height="114" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="615" srcheight="114"/>
+</texture>

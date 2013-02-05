@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texture version="1" file="gfx2.pvr.ccz" type="pvrccz" width="512" height="546" pixelformat="RGBA_8888" minfilter="linear" magfilter="linear" wrapt="clamp" wraps="clamp" premultiplyalpha="false">
+    <!-- Created with TexturePacker http://texturepacker.com -->
+    <!-- $TexturePacker:SmartUpdate:1c2aa5d419ae257ebac5e60c95687333$ -->
+    <textureregion id="0" src="HEALED.png" x="2" y="304" width="189" height="42" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="189" srcheight="42"/>
+    <textureregion id="1" src="_100.png" x="238" y="499" width="82" height="40" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="82" srcheight="40"/>
+    <textureregion id="2" src="_1_life.png" x="193" y="357" width="130" height="28" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="130" srcheight="28"/>
+    <textureregion id="3" src="_200.png" x="249" y="221" width="84" height="40" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="84" srcheight="40"/>
+    <textureregion id="4" src="_2_points.png" x="338" y="132" width="171" height="27" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="171" srcheight="27"/>
+    <textureregion id="5" src="_5.png" x="199" y="288" width="26" height="40" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="26" srcheight="40"/>
+    <textureregion id="6" src="_500.png" x="247" y="263" width="86" height="40" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="86" srcheight="40"/>
+    <textureregion id="7" src="_54321.png" x="366" y="31" width="140" height="40" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="140" srcheight="40"/>
+    <textureregion id="8" src="best.png" x="227" y="305" width="97" height="39" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="97" srcheight="39"/>
+    <textureregion id="9" src="big_ball.png" x="366" y="2" width="141" height="27" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="141" srcheight="27"/>
+    <textureregion id="10" src="blind.png" x="330" y="466" width="95" height="27" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="95" srcheight="27"/>
+    <textureregion id="11" src="break_all.png" x="336" y="219" width="164" height="27" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="164" srcheight="27"/>
+    <textureregion id="12" src="candy.png" x="335" y="248" width="160" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="160" srcheight="80"/>
+    <textureregion id="13" src="chip_lamp.png" x="338" y="84" width="20" height="10" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="20" srcheight="10"/>
+    <textureregion id="14" src="chips_candy.png" x="249" y="181" width="30" height="10" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="30" srcheight="10"/>
+    <textureregion id="15" src="chips_flower.png" x="193" y="330" width="25" height="25" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="25" srcheight="25"/>
+    <textureregion id="16" src="chips_flower_2.png" x="249" y="193" width="25" height="25" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="25" srcheight="25"/>
+    <textureregion id="17" src="crystal_blue.png" x="205" y="246" width="40" height="40" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="40" srcheight="40"/>
+    <textureregion id="18" src="crystal_red.png" x="330" y="424" width="55" height="40" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="55" srcheight="40"/>
+    <textureregion id="19" src="crystal_yellow.png" x="322" y="499" width="55" height="40" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="55" srcheight="40"/>
+    <textureregion id="20" src="decrease.png" x="2" y="407" width="155" height="27" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="155" srcheight="27"/>
+    <textureregion id="21" src="explosive.png" x="338" y="103" width="172" height="27" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="172" srcheight="27"/>
+    <textureregion id="22" src="fast_ball.png" x="336" y="190" width="168" height="27" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="168" srcheight="27"/>
+    <textureregion id="23" src="fire_ball.png" x="162" y="387" width="158" height="28" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="158" srcheight="28"/>
+    <textureregion id="24" src="flower.png" x="427" y="424" width="80" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="80" srcheight="80"/>
+    <textureregion id="25" src="flower_2.png" x="248" y="417" width="80" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="80" srcheight="80"/>
+    <textureregion id="26" src="good.png" x="326" y="330" width="176" height="63" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="176" srcheight="63"/>
+    <textureregion id="27" src="green_wall.png" x="166" y="417" width="80" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="80" srcheight="80"/>
+    <textureregion id="28" src="green_wall_leaf.png" x="118" y="518" width="20" height="20" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="20" srcheight="20"/>
+    <textureregion id="29" src="gun.png" x="379" y="506" width="66" height="27" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="66" srcheight="27"/>
+    <textureregion id="30" src="high_score.png" x="2" y="84" width="334" height="53" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="334" srcheight="53"/>
+    <textureregion id="31" src="increase.png" x="2" y="377" width="158" height="28" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="158" srcheight="28"/>
+    <textureregion id="32" src="lamp.png" x="284" y="139" width="50" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="50" srcheight="80"/>
+    <textureregion id="33" src="light_off.png" x="336" y="161" width="169" height="27" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="169" srcheight="27"/>
+    <textureregion id="34" src="magnet.png" x="366" y="73" width="131" height="28" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="131" srcheight="28"/>
+    <textureregion id="35" src="main_font.png" x="2" y="139" width="280" height="40" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="280" srcheight="40"/>
+    <textureregion id="36" src="min_1_life.png" x="379" y="395" width="116" height="27" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="116" srcheight="27"/>
+    <textureregion id="37" src="no_bad.png" x="2" y="181" width="245" height="63" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="245" srcheight="63"/>
+    <textureregion id="38" src="protection.png" x="2" y="246" width="201" height="27" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="201" srcheight="27"/>
+    <textureregion id="39" src="slow.png" x="2" y="518" width="92" height="26" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="92" srcheight="26"/>
+    <textureregion id="40" src="small_ball.png" x="2" y="348" width="189" height="27" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="189" srcheight="27"/>
+    <textureregion id="41" src="star_lite.png" x="96" y="518" width="20" height="20" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="20" srcheight="20"/>
+    <textureregion id="42" src="star_menu.png" x="166" y="499" width="70" height="45" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="70" srcheight="45"/>
+    <textureregion id="43" src="stone_ball.png" x="2" y="275" width="195" height="27" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="195" srcheight="27"/>
+    <textureregion id="44" src="teeth_1.png" x="84" y="436" width="80" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="80" srcheight="80"/>
+    <textureregion id="45" src="teeth_2.png" x="2" y="436" width="80" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="80" srcheight="80"/>
+    <textureregion id="46" src="very_good.png" x="2" y="2" width="362" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="362" srcheight="80"/>
+</texture>

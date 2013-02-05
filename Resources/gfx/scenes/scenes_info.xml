@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texture version="1" file="scenes_info.pvr.ccz" type="pvrccz" width="804" height="1284" pixelformat="RGBA_8888" minfilter="linear" magfilter="linear" wrapt="clamp" wraps="clamp" premultiplyalpha="false">
+    <!-- Created with TexturePacker http://texturepacker.com -->
+    <!-- $TexturePacker:SmartUpdate:d4f42ce8ca5cea04e46c20b950dd4036$ -->
+    <textureregion id="0" src="information.png" x="2" y="2" width="800" height="1280" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="800" srcheight="1280"/>
+</texture>

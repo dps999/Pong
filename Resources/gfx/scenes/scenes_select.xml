@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texture version="1" file="scenes_select.pvr.ccz" type="pvrccz" width="863" height="1486" pixelformat="RGBA_8888" minfilter="linear" magfilter="linear" wrapt="clamp" wraps="clamp" premultiplyalpha="false">
+    <!-- Created with TexturePacker http://texturepacker.com -->
+    <!-- $TexturePacker:SmartUpdate:2405a4f159f38376eac9abaa62b09b14$ -->
+    <textureregion id="0" src="full_version.png" x="2" y="1284" width="220" height="200" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="220" srcheight="200"/>
+    <textureregion id="1" src="left_button.png" x="532" y="1284" width="120" height="110" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="120" srcheight="110"/>
+    <textureregion id="2" src="lite.png" x="224" y="1284" width="184" height="157" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="184" srcheight="157"/>
+    <textureregion id="3" src="lock.png" x="654" y="1284" width="103" height="103" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="103" srcheight="103"/>
+    <textureregion id="4" src="lvl_nomber.png" x="759" y="1284" width="102" height="102" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="102" srcheight="102"/>
+    <textureregion id="5" src="right_button.png" x="410" y="1284" width="120" height="110" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="120" srcheight="110"/>
+    <textureregion id="6" src="select_menu.png" x="2" y="2" width="800" height="1280" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="800" srcheight="1280"/>
+    <textureregion id="7" src="stras_yellow.png" x="224" y="1443" width="28" height="28" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="28" srcheight="28"/>
+</texture>

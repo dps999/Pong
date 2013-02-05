@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texture version="1" file="scene_end.pvr.ccz" type="pvrccz" width="804" height="1284" pixelformat="RGBA_8888" minfilter="linear" magfilter="linear" wrapt="clamp" wraps="clamp" premultiplyalpha="false">
+    <!-- Created with TexturePacker http://texturepacker.com -->
+    <!-- $TexturePacker:SmartUpdate:4de202d047afe2c6e3b3addc869cc719$ -->
+    <textureregion id="0" src="the_end.png" x="2" y="2" width="800" height="1280" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="800" srcheight="1280"/>
+</texture>

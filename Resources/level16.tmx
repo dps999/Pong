@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="10" height="16" tilewidth="80" tileheight="80">
+ <tileset firstgid="1" name="hive" tilewidth="100" tileheight="110">
+  <image source="gfx/hive.png" width="100" height="110"/>
+ </tileset>
+ <tileset firstgid="2" name="coin" tilewidth="40" tileheight="40">
+  <image source="gfx/coin.png" width="120" height="80"/>
+ </tileset>
+ <tileset firstgid="8" name="star" tilewidth="65" tileheight="65">
+  <image source="gfx/star.png" width="65" height="65"/>
+ </tileset>
+ <tileset firstgid="9" name="guard" tilewidth="266" tileheight="20">
+  <image source="gfx/guard.png" width="266" height="20"/>
+ </tileset>
+ <tileset firstgid="10" name="safe" tilewidth="80" tileheight="80">
+  <image source="gfx/safe.png" width="80" height="80"/>
+ </tileset>
+ <tileset firstgid="11" name="star_2" tilewidth="65" tileheight="65">
+  <image source="gfx/star_2.png" width="65" height="65"/>
+ </tileset>
+ <tileset firstgid="12" name="heart_2" tilewidth="80" tileheight="75">
+  <image source="gfx/heart_2.png" width="80" height="75"/>
+ </tileset>
+ <tileset firstgid="13" name="heart_panel" tilewidth="50" tileheight="44">
+  <image source="gfx/heart_panel.png" width="50" height="44"/>
+ </tileset>
+ <tileset firstgid="14" name="wood" tilewidth="80" tileheight="80">
+  <image source="gfx/wood.png" width="160" height="80"/>
+ </tileset>
+ <tileset firstgid="16" name="layer_back" tilewidth="800" tileheight="1280">
+  <image source="gfx/backgrounds/layer_back_1.png" width="800" height="1280"/>
+ </tileset>
+ <tileset firstgid="17" name="layer_1" tilewidth="800" tileheight="1280">
+  <image source="gfx/backgrounds/layer_1.png" width="800" height="1280"/>
+ </tileset>
+ <tileset firstgid="18" name="rock" tilewidth="80" tileheight="80">
+  <image source="gfx/rock.png" width="240" height="80"/>
+ </tileset>
+ <tileset firstgid="21" name="moss_green" tilewidth="80" tileheight="80">
+  <image source="gfx/moss_green.png" width="240" height="80"/>
+ </tileset>
+ <tileset firstgid="24" name="moss_orange" tilewidth="80" tileheight="80">
+  <image source="gfx/moss_orange.png" width="240" height="80"/>
+ </tileset>
+ <tileset firstgid="27" name="ice" tilewidth="80" tileheight="80">
+  <image source="gfx/ice.png" width="160" height="80"/>
+ </tileset>
+ <tileset firstgid="29" name="big_ball_gb" tilewidth="80" tileheight="80">
+  <image source="gfx/Goog bonuses/Good bonuses/big_ball_gb.png" width="100" height="80"/>
+ </tileset>
+ <tileset firstgid="30" name="double_gb" tilewidth="80" tileheight="80">
+  <image source="gfx/Goog bonuses/Good bonuses/double_gb.png" width="100" height="80"/>
+ </tileset>
+ <tileset firstgid="31" name="explosive_gb" tilewidth="80" tileheight="80">
+  <image source="gfx/Goog bonuses/Good bonuses/explosive_gb.png" width="100" height="80"/>
+ </tileset>
+ <tileset firstgid="32" name="fire_ball_gb" tilewidth="80" tileheight="80">
+  <image source="gfx/Goog bonuses/Good bonuses/fire_ball_gb.png" width="100" height="80"/>
+ </tileset>
+ <tileset firstgid="33" name="magnet_gb" tilewidth="80" tileheight="80">
+  <image source="gfx/Goog bonuses/Good bonuses/magnet_gb.png" width="100" height="80"/>
+ </tileset>
+ <tileset firstgid="34" name="guard_gb" tilewidth="80" tileheight="80">
+  <image source="gfx/Goog bonuses/Good bonuses/guard_gb.png" width="100" height="80"/>
+ </tileset>
+ <tileset firstgid="35" name="gun_gb" tilewidth="80" tileheight="80">
+  <image source="gfx/Goog bonuses/Good bonuses/gun_gb.png" width="100" height="80"/>
+ </tileset>
+ <tileset firstgid="36" name="increase_platform_gb" tilewidth="80" tileheight="80">
+  <image source="gfx/Goog bonuses/Good bonuses/increase_platform_gb.png" width="100" height="80"/>
+ </tileset>
+ <tileset firstgid="37" name="slow_ball_gb" tilewidth="80" tileheight="80">
+  <image source="gfx/Goog bonuses/Good bonuses/slow_ball_gb.png" width="100" height="80"/>
+ </tileset>
+ <tileset firstgid="38" name="stone_ball_gb" tilewidth="80" tileheight="80">
+  <image source="gfx/Goog bonuses/Good bonuses/stone_ball_gb.png" width="100" height="80"/>
+ </tileset>
+ <tileset firstgid="39" name="black_hole_bb" tilewidth="80" tileheight="80">
+  <image source="gfx/Bad bonuses/Bad bonuses/black_hole_bb.png" width="100" height="80"/>
+ </tileset>
+ <tileset firstgid="40" name="broken_heart_bb" tilewidth="80" tileheight="80">
+  <image source="gfx/Bad bonuses/Bad bonuses/broken_heart_bb.png" width="100" height="80"/>
+ </tileset>
+ <tileset firstgid="41" name="down_bb" tilewidth="80" tileheight="80">
+  <image source="gfx/Bad bonuses/Bad bonuses/down_bb.png" width="100" height="80"/>
+ </tileset>
+ <tileset firstgid="42" name="mini_ball_bb" tilewidth="80" tileheight="80">
+  <image source="gfx/Bad bonuses/Bad bonuses/mini_ball_bb.png" width="100" height="80"/>
+ </tileset>
+ <tileset firstgid="43" name="poison_bb" tilewidth="80" tileheight="80">
+  <image source="gfx/Bad bonuses/Bad bonuses/poison_bb.png" width="100" height="80"/>
+ </tileset>
+ <tileset firstgid="44" name="randome_bb" tilewidth="80" tileheight="80">
+  <image source="gfx/Bad bonuses/Bad bonuses/randome_bb.png" width="100" height="80"/>
+ </tileset>
+ <tileset firstgid="45" name="reduction_bb" tilewidth="80" tileheight="80">
+  <image source="gfx/Bad bonuses/Bad bonuses/reduction_bb.png" width="100" height="80"/>
+ </tileset>
+ <tileset firstgid="46" name="speed_ball_bb" tilewidth="80" tileheight="80">
+  <image source="gfx/Bad bonuses/Bad bonuses/speed_ball_bb.png" width="100" height="80"/>
+ </tileset>
+ <tileset firstgid="47" name="boom_gb" tilewidth="80" tileheight="80">
+  <image source="gfx/Goog bonuses/Good bonuses/boom_gb.png" width="100" height="80"/>
+ </tileset>
+ <tileset firstgid="48" name="heart_gb" tilewidth="65" tileheight="55">
+  <image source="gfx/Goog bonuses/Good bonuses/heart.png" width="65" height="55"/>
+ </tileset>
+ <tileset firstgid="49" name="star_gb" tilewidth="65" tileheight="65">
+  <image source="gfx/star.png" width="65" height="65"/>
+ </tileset>
+ <tileset firstgid="50" name="bordo" tilewidth="80" tileheight="80">
+  <image source="gfx/bordo.png" width="160" height="80"/>
+ </tileset>
+ <tileset firstgid="52" name="unbreakble" tilewidth="80" tileheight="80">
+  <image source="gfx/unbreakble.png" width="160" height="80"/>
+ </tileset>
+ <tileset firstgid="54" name="invisible" tilewidth="80" tileheight="80">
+  <image source="gfx/invisible.png" width="160" height="80"/>
+ </tileset>
+ <tileset firstgid="56" name="bee_yellow" tilewidth="80" tileheight="80">
+  <image source="gfx/bee_yellow.png" width="160" height="80"/>
+ </tileset>
+ <tileset firstgid="58" name="bee_still" tilewidth="80" tileheight="80">
+  <image source="gfx/bee_still.png" width="160" height="80"/>
+ </tileset>
+ <tileset firstgid="60" name="bee_red" tilewidth="80" tileheight="80">
+  <image source="gfx/bee_red.png" width="160" height="80"/>
+ </tileset>
+ <tileset firstgid="62" name="bee_green" tilewidth="80" tileheight="80">
+  <image source="gfx/bee_green.png" width="160" height="80"/>
+ </tileset>
+ <tileset firstgid="64" name="invisible_2" tilewidth="80" tileheight="80">
+  <image source="gfx/invisible_2.png" width="160" height="80"/>
+ </tileset>
+ <tileset firstgid="66" name="layer_back_1" tilewidth="800" tileheight="1280">
+  <image source="gfx/backgrounds/layer_back_1.png" width="800" height="1280"/>
+ </tileset>
+ <tileset firstgid="67" name="layer_back_2" tilewidth="800" tileheight="1280">
+  <image source="gfx/backgrounds/layer_back_2.png" width="800" height="1280"/>
+ </tileset>
+ <tileset firstgid="68" name="layer_back_3" tilewidth="800" tileheight="1280">
+  <image source="gfx/backgrounds/layer_back_3.png" width="800" height="1280"/>
+ </tileset>
+ <tileset firstgid="69" name="layer_back_4" tilewidth="800" tileheight="1280">
+  <image source="gfx/backgrounds/layer_back_4.png" width="800" height="1280"/>
+ </tileset>
+ <tileset firstgid="70" name="layer_back_5" tilewidth="800" tileheight="1280">
+  <image source="gfx/backgrounds/layer_back_5.png" width="800" height="1280"/>
+ </tileset>
+ <tileset firstgid="71" name="layer_back_6" tilewidth="800" tileheight="1280">
+  <image source="gfx/backgrounds/layer_back_6.png" width="800" height="1280"/>
+ </tileset>
+ <tileset firstgid="72" name="layer_back_7" tilewidth="800" tileheight="1280">
+  <image source="gfx/backgrounds/layer_back_7.png" width="800" height="1280"/>
+ </tileset>
+ <tileset firstgid="73" name="layer_back_8" tilewidth="800" tileheight="1280">
+  <image source="gfx/backgrounds/layer_back_8.png" width="800" height="1280"/>
+ </tileset>
+ <tileset firstgid="74" name="layer_back_9" tilewidth="800" tileheight="1280">
+  <image source="gfx/backgrounds/layer_back_9.png" width="800" height="1280"/>
+ </tileset>
+ <tileset firstgid="75" name="layer_back_10" tilewidth="800" tileheight="1280">
+  <image source="gfx/backgrounds/layer_back_10.png" width="800" height="1280"/>
+ </tileset>
+ <tileset firstgid="76" name="layer_back_11" tilewidth="800" tileheight="1280">
+  <image source="gfx/backgrounds/layer_back_11.png" width="800" height="1280"/>
+ </tileset>
+ <tileset firstgid="77" name="layer_back_12" tilewidth="800" tileheight="1280">
+  <image source="gfx/backgrounds/layer_back_12.png" width="800" height="1280"/>
+ </tileset>
+ <tileset firstgid="78" name="layer_back_13" tilewidth="800" tileheight="1280">
+  <image source="gfx/backgrounds/layer_back_13.png" width="800" height="1280"/>
+ </tileset>
+ <tileset firstgid="79" name="layer_back_14" tilewidth="800" tileheight="1280">
+  <image source="gfx/backgrounds/layer_back_14.png" width="800" height="1280"/>
+ </tileset>
+ <tileset firstgid="80" name="layer_back_15" tilewidth="800" tileheight="1280">
+  <image source="gfx/backgrounds/layer_back_15.png" width="800" height="1280"/>
+ </tileset>
+ <tileset firstgid="81" name="layer_2" tilewidth="800" tileheight="1280">
+  <image source="gfx/backgrounds/layer_2.png" width="800" height="1280"/>
+ </tileset>
+ <tileset firstgid="82" name="clouds" tilewidth="80" tileheight="80">
+  <image source="gfx/clouds.png" width="80" height="80"/>
+ </tileset>
+ <tileset firstgid="83" name="lock_bricks" tilewidth="80" tileheight="80">
+  <image source="gfx/lock_bricks.png" width="320" height="80"/>
+ </tileset>
+ <tileset firstgid="87" name="key" tilewidth="65" tileheight="55">
+  <image source="gfx/key.png" width="65" height="55"/>
+ </tileset>
+ <tileset firstgid="88" name="chest" tilewidth="80" tileheight="63">
+  <image source="gfx/chest.png" width="80" height="63"/>
+ </tileset>
+ <tileset firstgid="89" name="flower" tilewidth="80" tileheight="80">
+  <image source="gfx/flower.png" width="80" height="80"/>
+ </tileset>
+ <tileset firstgid="90" name="flower_2" tilewidth="80" tileheight="80">
+  <image source="gfx/flower_2.png" width="80" height="80"/>
+ </tileset>
+ <tileset firstgid="91" name="green_wall" tilewidth="80" tileheight="80">
+  <image source="gfx/green_wall.png" width="80" height="80"/>
+ </tileset>
+ <tileset firstgid="92" name="crystal_red" tilewidth="55" tileheight="40">
+  <image source="gfx/crystal_red.png" width="55" height="40"/>
+ </tileset>
+ <tileset firstgid="93" name="crystal_yellow" tilewidth="55" tileheight="40">
+  <image source="gfx/crystal_yellow.png" width="55" height="40"/>
+ </tileset>
+ <tileset firstgid="94" name="crystal_blue" tilewidth="40" tileheight="40">
+  <image source="gfx/crystal_blue.png" width="40" height="40"/>
+ </tileset>
+ <tileset firstgid="95" name="lamp" tilewidth="50" tileheight="80">
+  <image source="gfx/lamp.png" width="50" height="80"/>
+ </tileset>
+ <tileset firstgid="96" name="teeth_1" tilewidth="80" tileheight="80">
+  <image source="gfx/teeth_1.png" width="80" height="80"/>
+ </tileset>
+ <tileset firstgid="97" name="teeth_2" tilewidth="80" tileheight="80">
+  <image source="gfx/teeth_2.png" width="80" height="80"/>
+ </tileset>
+ <objectgroup name="back" width="10" height="16">
+  <object gid="81" x="0" y="1280"/>
+  <object gid="75" x="0" y="1280"/>
+ </objectgroup>
+ <objectgroup name="objects" width="10" height="16">
+  <properties>
+   <property name="objects" value=""/>
+  </properties>
+  <object gid="9" x="2" y="1184"/>
+  <object gid="9" x="268" y="1184"/>
+  <object gid="9" x="534" y="1184"/>
+  <object gid="1" x="352" y="191"/>
+  <object gid="24" x="80" y="240"/>
+  <object gid="24" x="160" y="240"/>
+  <object gid="24" x="560" y="240"/>
+  <object gid="24" x="640" y="240"/>
+  <object gid="14" x="720" y="240"/>
+  <object gid="14" x="480" y="240"/>
+  <object gid="14" x="240" y="240"/>
+  <object gid="14" x="0" y="240"/>
+  <object gid="14" x="0" y="320"/>
+  <object gid="14" x="0" y="400"/>
+  <object gid="14" x="0" y="480"/>
+  <object gid="14" x="0" y="560"/>
+  <object gid="14" x="0" y="640"/>
+  <object gid="14" x="0" y="720"/>
+  <object gid="14" x="0" y="800"/>
+  <object gid="14" x="720" y="320"/>
+  <object gid="14" x="720" y="400"/>
+  <object gid="14" x="720" y="480"/>
+  <object gid="14" x="720" y="560"/>
+  <object gid="14" x="720" y="640"/>
+  <object gid="14" x="720" y="720"/>
+  <object gid="14" x="720" y="800"/>
+  <object gid="14" x="240" y="320"/>
+  <object gid="14" x="480" y="320"/>
+  <object gid="24" x="160" y="400"/>
+  <object gid="24" x="240" y="400"/>
+  <object gid="24" x="480" y="400"/>
+  <object gid="24" x="560" y="400"/>
+  <object gid="14" x="560" y="480"/>
+  <object gid="14" x="160" y="480"/>
+  <object gid="24" x="80" y="640"/>
+  <object gid="24" x="160" y="640"/>
+  <object gid="24" x="240" y="640"/>
+  <object gid="24" x="320" y="640"/>
+  <object gid="24" x="400" y="640"/>
+  <object gid="24" x="480" y="640"/>
+  <object gid="24" x="560" y="640"/>
+  <object gid="24" x="640" y="640"/>
+  <object gid="24" x="80" y="800"/>
+  <object gid="24" x="160" y="800"/>
+  <object gid="24" x="640" y="800"/>
+  <object gid="24" x="560" y="800"/>
+  <object gid="60" x="361" y="721"/>
+  <object gid="92" x="254" y="540"/>
+  <object gid="58" x="361" y="481"/>
+  <object gid="52" x="640" y="480"/>
+  <object gid="52" x="80" y="480"/>
+  <object gid="8" x="648" y="394"/>
+  <object gid="8" x="87" y="393"/>
+  <object gid="95" x="617" y="320"/>
+  <object gid="95" x="136" y="319"/>
+  <object gid="50" x="320" y="400"/>
+  <object gid="50" x="400" y="400"/>
+  <object gid="93" x="372" y="297"/>
+  <object gid="95" x="657" y="880"/>
+  <object gid="95" x="95" y="880"/>
+  <object gid="94" x="501" y="539"/>
+  <object gid="88" x="80" y="560"/>
+  <object gid="88" x="640" y="560"/>
+  <object gid="54" x="640" y="720"/>
+  <object gid="54" x="80" y="720"/>
+  <object gid="49" x="645" y="714"/>
+ </objectgroup>
+</map>

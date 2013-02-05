@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texture version="1" file="gfx.pvr.ccz" type="pvrccz" width="2033" height="2044" pixelformat="RGBA_8888" minfilter="linear" magfilter="linear" wrapt="clamp" wraps="clamp" premultiplyalpha="false">
+    <!-- Created with TexturePacker http://texturepacker.com -->
+    <!-- $TexturePacker:SmartUpdate:feb1bcee1f495753ea9aec435eebaf6b$ -->
+    <textureregion id="0" src="Bad bonuses/black_hole_bb.png" x="1838" y="1508" width="100" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="100" srcheight="80"/>
+    <textureregion id="1" src="Bad bonuses/broken_heart_bb.png" x="1736" y="1552" width="100" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="100" srcheight="80"/>
+    <textureregion id="2" src="Bad bonuses/down_bb.png" x="1634" y="1428" width="100" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="100" srcheight="80"/>
+    <textureregion id="3" src="Bad bonuses/mini_ball_bb.png" x="1634" y="1542" width="100" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="100" srcheight="80"/>
+    <textureregion id="4" src="Bad bonuses/poison_bb.png" x="1924" y="1908" width="100" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="100" srcheight="80"/>
+    <textureregion id="5" src="Bad bonuses/randome_bb.png" x="1822" y="1908" width="100" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="100" srcheight="80"/>
+    <textureregion id="6" src="Bad bonuses/reduction_bb.png" x="1720" y="1908" width="100" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="100" srcheight="80"/>
+    <textureregion id="7" src="Bad bonuses/speed_ball_bb.png" x="1618" y="1908" width="100" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="100" srcheight="80"/>
+    <textureregion id="8" src="Balls/ball.png" x="1510" y="1990" width="40" height="40" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="40" srcheight="40"/>
+    <textureregion id="9" src="Balls/ball_big.png" x="1736" y="1490" width="60" height="60" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="60" srcheight="60"/>
+    <textureregion id="10" src="Balls/ball_small.png" x="1906" y="2022" width="20" height="20" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="20" srcheight="20"/>
+    <textureregion id="11" src="Fire balls/fire_ball.png" x="1468" y="1990" width="40" height="40" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="40" srcheight="40"/>
+    <textureregion id="12" src="Fire balls/fire_ball_big.png" x="1736" y="1428" width="60" height="60" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="60" srcheight="60"/>
+    <textureregion id="13" src="Fire balls/fire_ball_small.png" x="1890" y="1284" width="20" height="20" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="20" srcheight="20"/>
+    <textureregion id="14" src="Good bonuses/big_ball_gb.png" x="1925" y="1228" width="100" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="100" srcheight="80"/>
+    <textureregion id="15" src="Good bonuses/boom_gb.png" x="1925" y="1146" width="100" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="100" srcheight="80"/>
+    <textureregion id="16" src="Good bonuses/coin.png" x="1496" y="1908" width="120" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="120" srcheight="80"/>
+    <textureregion id="17" src="Good bonuses/double_gb.png" x="1925" y="1064" width="100" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="100" srcheight="80"/>
+    <textureregion id="18" src="Good bonuses/explosive_gb.png" x="1925" y="982" width="100" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="100" srcheight="80"/>
+    <textureregion id="19" src="Good bonuses/fire_ball_gb.png" x="1925" y="900" width="100" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="100" srcheight="80"/>
+    <textureregion id="20" src="Good bonuses/guard_gb.png" x="1925" y="818" width="100" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="100" srcheight="80"/>
+    <textureregion id="21" src="Good bonuses/gun_gb.png" x="1925" y="736" width="100" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="100" srcheight="80"/>
+    <textureregion id="22" src="Good bonuses/heart.png" x="1964" y="1485" width="65" height="55" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="65" srcheight="55"/>
+    <textureregion id="23" src="Good bonuses/increase_platform_gb.png" x="1925" y="654" width="100" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="100" srcheight="80"/>
+    <textureregion id="24" src="Good bonuses/magnet_gb.png" x="1925" y="572" width="100" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="100" srcheight="80"/>
+    <textureregion id="25" src="Good bonuses/slow_ball_gb.png" x="1925" y="490" width="100" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="100" srcheight="80"/>
+    <textureregion id="26" src="Good bonuses/stone_ball_gb.png" x="1925" y="408" width="100" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="100" srcheight="80"/>
+    <textureregion id="27" src="Stone balls/stone_ball_big.png" x="266" y="1670" width="60" height="60" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="60" srcheight="60"/>
+    <textureregion id="28" src="Stone balls/stone_ball_normal.png" x="1426" y="1990" width="40" height="40" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="40" srcheight="40"/>
+    <textureregion id="29" src="Stone balls/stone_ball_small.png" x="1868" y="1284" width="20" height="20" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="20" srcheight="20"/>
+    <textureregion id="30" src="Stone fire balls/stone_ball_big_fire.png" x="204" y="1670" width="60" height="60" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="60" srcheight="60"/>
+    <textureregion id="31" src="Stone fire balls/stone_ball_normal_fire.png" x="1312" y="1998" width="40" height="40" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="40" srcheight="40"/>
+    <textureregion id="32" src="Stone fire balls/stone_ball_small_fire.png" x="1846" y="1284" width="20" height="20" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="20" srcheight="20"/>
+    <textureregion id="33" src="bear.png" x="298" y="1284" width="480" height="380" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="480" srcheight="380"/>
+    <textureregion id="34" src="bee_green.png" x="1334" y="1908" width="160" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="160" srcheight="80"/>
+    <textureregion id="35" src="bee_red.png" x="1172" y="1916" width="160" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="160" srcheight="80"/>
+    <textureregion id="36" src="bee_still.png" x="1010" y="1916" width="160" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="160" srcheight="80"/>
+    <textureregion id="37" src="bee_yellow.png" x="1636" y="1746" width="160" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="160" srcheight="80"/>
+    <textureregion id="38" src="bomb.png" x="473" y="1748" width="50" height="210" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="50" srcheight="210"/>
+    <textureregion id="39" src="boom.png" x="780" y="1284" width="852" height="378" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="852" srcheight="378"/>
+    <textureregion id="40" src="bordo.png" x="1620" y="1664" width="160" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="160" srcheight="80"/>
+    <textureregion id="41" src="bordo_chip.png" x="1634" y="1624" width="100" height="25" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="100" srcheight="25"/>
+    <textureregion id="42" src="bullet.png" x="1928" y="2022" width="17" height="17" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="17" srcheight="17"/>
+    <textureregion id="43" src="chest.png" x="470" y="1966" width="80" height="63" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="80" srcheight="63"/>
+    <textureregion id="44" src="chip.png" x="1634" y="1510" width="100" height="25" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="100" srcheight="25"/>
+    <textureregion id="45" src="clouds.png" x="1798" y="1737" width="80" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="80" srcheight="80"/>
+    <textureregion id="46" src="desk_big.png" x="1638" y="1990" width="266" height="30" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="266" srcheight="30"/>
+    <textureregion id="47" src="desk_big_magnet.png" x="992" y="2010" width="266" height="30" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="266" srcheight="30"/>
+    <textureregion id="48" src="desk_normal.png" x="1798" y="1396" width="200" height="30" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="200" srcheight="30"/>
+    <textureregion id="49" src="desk_normal_magnet.png" x="1798" y="1364" width="200" height="30" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="200" srcheight="30"/>
+    <textureregion id="50" src="desk_small.png" x="1634" y="1396" width="133" height="30" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="133" srcheight="30"/>
+    <textureregion id="51" src="desk_small_magnet.png" x="1634" y="1364" width="133" height="30" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="133" srcheight="30"/>
+    <textureregion id="52" src="dialogs/botton_lvl_menu.png" x="1925" y="198" width="106" height="96" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="106" srcheight="96"/>
+    <textureregion id="53" src="dialogs/botton_play_menu.png" x="1925" y="100" width="106" height="96" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="106" srcheight="96"/>
+    <textureregion id="54" src="dialogs/botton_reset_menu.png" x="1925" y="2" width="106" height="96" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="106" srcheight="96"/>
+    <textureregion id="55" src="dialogs/lvl_cleared.png" x="1026" y="2" width="510" height="1280" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="510" srcheight="1280"/>
+    <textureregion id="56" src="dialogs/lvl_failed.png" x="514" y="2" width="510" height="1280" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="510" srcheight="1280"/>
+    <textureregion id="57" src="dialogs/lvl_pause.png" x="1538" y="2" width="385" height="1280" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="385" srcheight="1280"/>
+    <textureregion id="58" src="dialogs/lvl_win.png" x="2" y="2" width="510" height="1280" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="510" srcheight="1280"/>
+    <textureregion id="59" src="dialogs/next.png" x="982" y="1746" width="86" height="86" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="86" srcheight="86"/>
+    <textureregion id="60" src="dialogs/star.png" x="552" y="1922" width="120" height="120" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="120" srcheight="120"/>
+    <textureregion id="61" src="dialogs/stars.png" x="1552" y="2027" width="47" height="15" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="47" srcheight="15"/>
+    <textureregion id="62" src="dialogs/stras_yellow.png" x="525" y="1949" width="15" height="15" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="15" srcheight="15"/>
+    <textureregion id="63" src="dynamite.png" x="1070" y="1746" width="240" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="240" srcheight="80"/>
+    <textureregion id="64" src="explosion.png" x="96" y="1748" width="375" height="216" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="375" srcheight="216"/>
+    <textureregion id="65" src="eyes.png" x="2" y="1970" width="250" height="72" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="250" srcheight="72"/>
+    <textureregion id="66" src="glass.png" x="1906" y="1990" width="30" height="30" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="30" srcheight="30"/>
+    <textureregion id="67" src="gold_type.png" x="1634" y="1310" width="390" height="52" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="390" srcheight="52"/>
+    <textureregion id="68" src="grass_green.png" x="1224" y="1868" width="800" height="38" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="800" srcheight="38"/>
+    <textureregion id="69" src="grass_orange.png" x="1224" y="1828" width="800" height="38" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="800" srcheight="38"/>
+    <textureregion id="70" src="guard.png" x="1638" y="2022" width="266" height="20" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="266" srcheight="20"/>
+    <textureregion id="71" src="gun_big.png" x="1634" y="1284" width="210" height="23" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="210" srcheight="23"/>
+    <textureregion id="72" src="gun_normal.png" x="674" y="2019" width="148" height="23" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="148" srcheight="23"/>
+    <textureregion id="73" src="gun_small.png" x="824" y="2019" width="98" height="23" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="98" srcheight="23"/>
+    <textureregion id="74" src="heart_2.png" x="254" y="1966" width="80" height="75" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="80" srcheight="75"/>
+    <textureregion id="75" src="heart_panel.png" x="1260" y="1998" width="50" height="44" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="50" srcheight="44"/>
+    <textureregion id="76" src="hive.png" x="1925" y="296" width="100" height="110" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="100" srcheight="110"/>
+    <textureregion id="77" src="hive_crashed.png" x="2" y="1284" width="200" height="462" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="200" srcheight="462"/>
+    <textureregion id="78" src="ice.png" x="1474" y="1746" width="160" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="160" srcheight="80"/>
+    <textureregion id="79" src="ice_chip.png" x="204" y="1732" width="50" height="13" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="50" srcheight="13"/>
+    <textureregion id="80" src="invisible.png" x="1458" y="1664" width="160" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="160" srcheight="80"/>
+    <textureregion id="81" src="invisible_2.png" x="1312" y="1746" width="160" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="160" srcheight="80"/>
+    <textureregion id="82" src="key.png" x="1964" y="1428" width="65" height="55" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="65" srcheight="55"/>
+    <textureregion id="83" src="leaf_green_left.png" x="771" y="1922" width="95" height="95" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="95" srcheight="95"/>
+    <textureregion id="84" src="leaf_orange_left.png" x="674" y="1922" width="95" height="95" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="95" srcheight="95"/>
+    <textureregion id="85" src="lock_bricks.png" x="328" y="1666" width="320" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="320" srcheight="80"/>
+    <textureregion id="86" src="moss_green.png" x="982" y="1834" width="240" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="240" srcheight="80"/>
+    <textureregion id="87" src="moss_orange.png" x="892" y="1664" width="240" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="240" srcheight="80"/>
+    <textureregion id="88" src="options.png" x="2" y="1748" width="92" height="220" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="92" srcheight="220"/>
+    <textureregion id="89" src="particle_fire.png" x="958" y="2010" width="32" height="32" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="32" srcheight="32"/>
+    <textureregion id="90" src="particle_point.png" x="924" y="2010" width="32" height="32" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="32" srcheight="32"/>
+    <textureregion id="91" src="patch.png" x="1798" y="1428" width="164" height="78" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="164" srcheight="78"/>
+    <textureregion id="92" src="patch_left.png" x="868" y="1922" width="140" height="86" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="140" srcheight="86"/>
+    <textureregion id="93" src="quit.png" x="525" y="1748" width="455" height="172" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="455" srcheight="172"/>
+    <textureregion id="94" src="rock.png" x="650" y="1666" width="240" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="240" srcheight="80"/>
+    <textureregion id="95" src="rock_chip.png" x="1933" y="1624" width="93" height="55" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="93" srcheight="55"/>
+    <textureregion id="96" src="rock_chip_dark.png" x="1838" y="1590" width="93" height="55" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="93" srcheight="55"/>
+    <textureregion id="97" src="safe.png" x="1940" y="1542" width="80" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="80" srcheight="80"/>
+    <textureregion id="98" src="safe_door.png" x="336" y="2033" width="80" height="7" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="80" srcheight="7"/>
+    <textureregion id="99" src="safe_trigger.png" x="2000" y="1364" width="30" height="60" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="30" srcheight="60"/>
+    <textureregion id="100" src="social.png" x="204" y="1284" width="92" height="384" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="92" srcheight="384"/>
+    <textureregion id="101" src="sound_menu_off.png" x="525" y="1922" width="25" height="25" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="25" srcheight="25"/>
+    <textureregion id="102" src="sound_menu_on.png" x="1782" y="1681" width="70" height="54" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="70" srcheight="54"/>
+    <textureregion id="103" src="sound_off.png" x="1595" y="1990" width="41" height="35" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="41" srcheight="35"/>
+    <textureregion id="104" src="sound_on.png" x="1552" y="1990" width="41" height="35" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="41" srcheight="35"/>
+    <textureregion id="105" src="star.png" x="403" y="1966" width="65" height="65" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="65" srcheight="65"/>
+    <textureregion id="106" src="star_2.png" x="336" y="1966" width="65" height="65" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="65" srcheight="65"/>
+    <textureregion id="107" src="star_menu.png" x="1354" y="1990" width="70" height="45" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="70" srcheight="45"/>
+    <textureregion id="108" src="unbreakble.png" x="1296" y="1664" width="160" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="160" srcheight="80"/>
+    <textureregion id="109" src="wood.png" x="1134" y="1664" width="160" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="160" srcheight="80"/>
+</texture>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texture version="1" file="wheel.pvr.ccz" type="pvrccz" width="2004" height="2004" pixelformat="RGBA_8888" minfilter="linear" magfilter="linear" wrapt="clamp" wraps="clamp" premultiplyalpha="false">
+    <!-- Created with TexturePacker http://texturepacker.com -->
+    <!-- $TexturePacker:SmartUpdate:bb20b53ec2bf93ab4b28c5afd6af9a54$ -->
+    <textureregion id="0" src="wheel.png" x="2" y="2" width="2000" height="2000" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="2000" srcheight="2000"/>
+</texture>
