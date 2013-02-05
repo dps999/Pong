@@ -1,10 +1,10 @@
 //{{NO_DEPENDENCIES}}
 // Microsoft Visual C++ generated include file.
-// Used by MyPong.RC
+// Used by Pong.RC
 //
 
 #define IDS_PROJNAME                100
-#define IDR_MYPONG    100
+#define IDR_PONG    100
 
 #define ID_FILE_NEW_WINDOW            32771
 
