@@ -2,6 +2,7 @@
 #include "Ball.h"
 #include "Paddle.h"
 #include "VisibleRect.h"
+#include "Block.h"
 
 enum tagPlayer 
 {
@@ -56,10 +57,11 @@ PongLayer::PongLayer()
 	cacher->addSpriteFramesWithFile("gfx.plist");
 	
 	
-	
+	Block *someSprite = Block::spriteWithFile("wood.png", cacher, 2, 1);
+
 	someSprite->setPosition(ccp( 100, 100));
 	this->addChild(someSprite);
-	//	someSprite->runAction(CCRepeatForever::create( seq ) );
+
 
     m_ballStartingVelocity = ccp(20.0f, -100.0f);
     
