@@ -27,7 +27,7 @@ private:
 public:
     PongLayer();
     ~PongLayer();
-
+	CCArray* iniGIDS();
     void resetAndScoreBallForPlayer(int player);
     void doStep(float delta);
 };

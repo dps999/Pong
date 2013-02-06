@@ -4,6 +4,8 @@
 #include "VisibleRect.h"
 #include "Block.h"
 
+
+
 enum tagPlayer 
 {
     kHighPlayer,
@@ -43,10 +45,42 @@ void PongScene::MainMenuCallback(CCObject* pSender)
 //------------------------------------------------------------------
 PongLayer::PongLayer()
 {
+	CCArray *gids = iniGIDS();
+	
+	CCTMXTiledMap *map = CCTMXTiledMap::create("level1.tmx");
+///	this->addChild(map);
 
-	CCTMXTiledMap *map = CCTMXTiledMap::create("level2.tmx");
-	this->addChild(map);
-			CCLayerColor *blueSky = CCLayerColor::create( ccc4(100, 100, 250, 255));
+
+	CCTMXObjectGroup* group = map->objectGroupNamed("back");
+
+	CCAssert(group != NULL, "'Objects' object group not found");
+	CCArray* objects = group->getObjects();
+
+	CCDictionary* dict = NULL;
+	CCObject* m_Obj = NULL;
+
+	CCARRAY_FOREACH(objects, m_Obj)
+	{
+		dict = (CCDictionary*)m_Obj;
+
+		if(!dict)
+			break;
+
+		const char* name = ((CCString*)dict->objectForKey("gid"))->getCString();
+		const char* key = "x";
+		int x = ((CCString*)dict->objectForKey(key))->intValue();
+		key = "y";
+		int y = ((CCString*)dict->objectForKey(key))->intValue();
+		key = "width";
+		int x2 = x+((CCString*)dict->objectForKey(key))->intValue();
+		key = "height";
+		int y2 = y+((CCString*)dict->objectForKey(key))->intValue();         
+
+		printf( "x %i, y %i, x2 %i, y2 %i\n", x, y, x2, y2 );
+	}
+
+
+	//		CCLayerColor *blueSky = CCLayerColor::create( ccc4(100, 100, 250, 255));
 	//	this->addChild(blueSky);
 
 	// set the appropriate resource directory for this device
@@ -148,4 +182,25 @@ void PongLayer::doStep(float delta)
 void PongScene::runThisTest()
 {
     CCDirector::sharedDirector()->replaceScene(this);
+}
+
+CCArray* PongLayer::iniGIDS()
+{
+	CCArray* a = new CCArray();
+	CCTMXMapInfo *mapInfo = new CCTMXMapInfo();
+	mapInfo->initWithTMXFile("level1.tmx");
+	CCArray *gids = mapInfo->getTilesets();
+	CCTMXTilesetInfo* dictInfo = NULL;
+	CCObject* m_ObjInfo = NULL;
+
+	CCARRAY_FOREACH(gids, m_ObjInfo)
+	{
+		dictInfo = (CCTMXTilesetInfo*)m_ObjInfo;
+
+		if(!dictInfo)
+			break;
+		a->insertObject(CCString::create( dictInfo->m_sName), dictInfo->m_uFirstGid);
+
+	}
+	return a;
 }
