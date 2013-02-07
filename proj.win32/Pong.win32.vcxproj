@@ -135,6 +135,7 @@
     <ClInclude Include="Paddle.h" />
     <ClInclude Include="PongScene.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="TMXTileSet.h" />
     <ClInclude Include="VisibleRect.h" />
   </ItemGroup>
   <ItemGroup>
@@ -145,6 +146,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Paddle.cpp" />
     <ClCompile Include="PongScene.cpp" />
+    <ClCompile Include="TMXTileSet.cpp" />
     <ClCompile Include="VisibleRect.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

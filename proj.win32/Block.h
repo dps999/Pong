@@ -8,6 +8,6 @@ public:
 	CCArray*  animFrames;
 	void setAnimFrames( CCArray*  a);
 	void setCurrentFrame(int currentFrame);
-	static Block* spriteWithFile(const char *pszFileName, CCSpriteFrameCache *cacher, int columns, int rows);
+	static Block* spriteWithFile(const char *pszFileName, CCSpriteFrameCache *cacher, CCSpriteFrameCache *cacher2, int columns, int rows);
 };
 

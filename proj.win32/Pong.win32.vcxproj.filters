@@ -61,6 +61,9 @@
     <ClInclude Include="Block.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="TMXTileSet.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -85,6 +88,9 @@
       <Filter>source</Filter>
     </ClCompile>
     <ClCompile Include="Block.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="TMXTileSet.cpp">
       <Filter>source</Filter>
     </ClCompile>
   </ItemGroup>

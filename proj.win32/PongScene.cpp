@@ -3,8 +3,12 @@
 #include "Paddle.h"
 #include "VisibleRect.h"
 #include "Block.h"
+#include <vector>
 
-
+typedef std::pair< unsigned int, char* >		td_Pair;	// key / value
+typedef std::vector< td_Pair  >		td_Vector;
+//typedef td_Vector::iterator ItemIterator;
+td_Vector tilesetVector;
 
 enum tagPlayer 
 {
@@ -45,39 +49,6 @@ void PongScene::MainMenuCallback(CCObject* pSender)
 //------------------------------------------------------------------
 PongLayer::PongLayer()
 {
-	CCArray *gids = iniGIDS();
-	
-	CCTMXTiledMap *map = CCTMXTiledMap::create("level1.tmx");
-///	this->addChild(map);
-
-
-	CCTMXObjectGroup* group = map->objectGroupNamed("back");
-
-	CCAssert(group != NULL, "'Objects' object group not found");
-	CCArray* objects = group->getObjects();
-
-	CCDictionary* dict = NULL;
-	CCObject* m_Obj = NULL;
-
-	CCARRAY_FOREACH(objects, m_Obj)
-	{
-		dict = (CCDictionary*)m_Obj;
-
-		if(!dict)
-			break;
-
-		const char* name = ((CCString*)dict->objectForKey("gid"))->getCString();
-		const char* key = "x";
-		int x = ((CCString*)dict->objectForKey(key))->intValue();
-		key = "y";
-		int y = ((CCString*)dict->objectForKey(key))->intValue();
-		key = "width";
-		int x2 = x+((CCString*)dict->objectForKey(key))->intValue();
-		key = "height";
-		int y2 = y+((CCString*)dict->objectForKey(key))->intValue();         
-
-		printf( "x %i, y %i, x2 %i, y2 %i\n", x, y, x2, y2 );
-	}
 
 
 	//		CCLayerColor *blueSky = CCLayerColor::create( ccc4(100, 100, 250, 255));
@@ -86,15 +57,15 @@ PongLayer::PongLayer()
 	// set the appropriate resource directory for this device
 	CCFileUtils::sharedFileUtils()->setResourceDirectory("gfx");
 
-	// load and cache the texture and sprite frames
-	auto cacher = CCSpriteFrameCache::sharedSpriteFrameCache();
-	cacher->addSpriteFramesWithFile("gfx.plist");
 	
+	loadLevel();
 	
-	Block *someSprite = Block::spriteWithFile("wood.png", cacher, 2, 1);
 
-	someSprite->setPosition(ccp( 100, 100));
-	this->addChild(someSprite);
+	
+	//Block *someSprite = Block::spriteWithFile("wood.png", cacher, 2, 1);
+
+//	someSprite->setPosition(ccp( 100, 100));
+//	this->addChild(someSprite);
 
 
     m_ballStartingVelocity = ccp(20.0f, -100.0f);
@@ -184,9 +155,12 @@ void PongScene::runThisTest()
     CCDirector::sharedDirector()->replaceScene(this);
 }
 
-CCArray* PongLayer::iniGIDS()
+void PongLayer::loadLevel()
 {
+	
 	CCArray* a = new CCArray();
+
+	tilesetVector.clear();
 	CCTMXMapInfo *mapInfo = new CCTMXMapInfo();
 	mapInfo->initWithTMXFile("level1.tmx");
 	CCArray *gids = mapInfo->getTilesets();
@@ -199,8 +173,56 @@ CCArray* PongLayer::iniGIDS()
 
 		if(!dictInfo)
 			break;
-		a->insertObject(CCString::create( dictInfo->m_sName), dictInfo->m_uFirstGid);
+		char *file = strcat((char*)dictInfo->m_sName.c_str(), ".png");
+		tilesetVector.push_back( td_Pair(dictInfo->m_uFirstGid, file));
+	//	a->insertObject(CCString::create( dictInfo->m_sName), dictInfo->m_uFirstGid);
 
 	}
-	return a;
+
+	// load and cache the texture and sprite frames
+	auto cacher = CCSpriteFrameCache::sharedSpriteFrameCache();
+	cacher->addSpriteFramesWithFile("gfx.plist");
+
+	// load and cache the texture and sprite frames
+	auto cacher2 = CCSpriteFrameCache::sharedSpriteFrameCache();
+	cacher2->addSpriteFramesWithFile("gfx2.plist");
+
+	CCTMXTiledMap *map = CCTMXTiledMap::create("level1.tmx");
+
+	CCTMXObjectGroup* group = map->objectGroupNamed("objects");
+
+	CCAssert(group != NULL, "'Objects' object group not found");
+	CCArray* objects = group->getObjects();
+
+	CCDictionary* dict = NULL;
+	CCObject* m_Obj = NULL;
+
+	CCARRAY_FOREACH(objects, m_Obj)
+	{
+		dict = (CCDictionary*)m_Obj;
+
+		if(!dict)
+			break;
+
+		int gid = ((CCString*)dict->objectForKey("gid"))->intValue();
+		int x = ((CCString*)dict->objectForKey("x"))->intValue();
+		int y = ((CCString*)dict->objectForKey("y"))->intValue();
+		//td_Vector::iterator pIter = std::find(tilesetVector.begin(), tilesetVector.end(), gid);
+		td_Vector::iterator pIter = tilesetVector.begin();
+		while (pIter != tilesetVector.end()) {
+			if(gid == pIter->first)
+			{
+				char *cc = pIter->second;
+				try
+				{
+				Block *someSprite = Block::spriteWithFile( cc, cacher, cacher2, 1, 1);
+				someSprite->setPosition(ccp( x, y));
+				this->addChild(someSprite);
+				break;
+				}catch(char * str ){};
+			}
+			++pIter;
+		}
+	}
+
 }
