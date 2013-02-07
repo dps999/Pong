@@ -213,13 +213,161 @@ void PongLayer::loadLevel()
 			if(gid == pIter->first)
 			{
 				char *cc = pIter->second;
-				try
+				if(strcmp(cc, "star_gb")>0) 
 				{
-				Block *someSprite = Block::spriteWithFile( cc, cacher, cacher2, 1, 1);
-				someSprite->setPosition(ccp( x, y));
-				this->addChild(someSprite);
-				break;
-				}catch(char * str ){};
+					Block *someSprite = Block::spriteWithFile( "star.png", cacher, cacher2, 1, 1);
+					someSprite->setPosition(ccp( x, y));
+					this->addChild(someSprite);
+					break;
+				}
+				//else if(strcmp(cc, "double_gb")>-1) 
+				//{
+				//	Block *someSprite = Block::spriteWithFile( cc, cacher, cacher2, 1, 1);
+				//	someSprite->setPosition(ccp( x, y));
+				//	this->addChild(someSprite);
+				//	break;
+				//}
+				//else if(strcmp(cc, "explosive_gb")>-1) 
+				//{
+				//	Block *someSprite = Block::spriteWithFile( cc, cacher, cacher2, 1, 1);
+				//	someSprite->setPosition(ccp( x, y));
+				//	this->addChild(someSprite);
+				//	break;
+				//}
+				//else if(strcmp(cc, "fire_ball_gb")>-1) 
+				//{
+				//	Block *someSprite = Block::spriteWithFile( cc, cacher, cacher2, 1, 1);
+				//	someSprite->setPosition(ccp( x, y));
+				//	this->addChild(someSprite);
+				//	break;
+				//}
+				//else if(strcmp(cc, "magnet_gb")>-1) 
+				//{
+				//	Block *someSprite = Block::spriteWithFile( cc, cacher, cacher2, 1, 1);
+				//	someSprite->setPosition(ccp( x, y));
+				//	this->addChild(someSprite);
+				//	break;
+				//}
+				//else if(strcmp(cc, "guard_gb")>-1) 
+				//{
+				//	Block *someSprite = Block::spriteWithFile( cc, cacher, cacher2, 1, 1);
+				//	someSprite->setPosition(ccp( x, y));
+				//	this->addChild(someSprite);
+				//	break;
+				//}
+				//else if(strcmp(cc, "gun_gb")>-1) 
+				//{
+				//	Block *someSprite = Block::spriteWithFile( cc, cacher, cacher2, 1, 1);
+				//	someSprite->setPosition(ccp( x, y));
+				//	this->addChild(someSprite);
+				//	break;
+				//}
+				//else if(strcmp(cc, "increase_platform_gb")>-1) 
+				//{
+				//	Block *someSprite = Block::spriteWithFile( cc, cacher, cacher2, 1, 1);
+				//	someSprite->setPosition(ccp( x, y));
+				//	this->addChild(someSprite);
+				//	break;
+				//}
+				//else if(strcmp(cc, "next_gb")>-1) 
+				//{
+				//	Block *someSprite = Block::spriteWithFile( cc, cacher, cacher2, 1, 1);
+				//	someSprite->setPosition(ccp( x, y));
+				//	this->addChild(someSprite);
+				//	break;
+				//}
+				//else if(strcmp(cc, "slow_ball_gb")>-1) 
+				//{
+				//	Block *someSprite = Block::spriteWithFile( cc, cacher, cacher2, 1, 1);
+				//	someSprite->setPosition(ccp( x, y));
+				//	this->addChild(someSprite);
+				//	break;
+				//}
+				//else if(strcmp(cc, "stone_ball_gb")>-1) 
+				//{
+				//	Block *someSprite = Block::spriteWithFile( cc, cacher, cacher2, 1, 1);
+				//	someSprite->setPosition(ccp( x, y));
+				//	this->addChild(someSprite);
+				//	break;
+				//}
+				//else if(strcmp(cc, "black_hole_bb")>-1) 
+				//{
+				//	Block *someSprite = Block::spriteWithFile( cc, cacher, cacher2, 1, 1);
+				//	someSprite->setPosition(ccp( x, y));
+				//	this->addChild(someSprite);
+				//	break;
+				//}
+				//else if(strcmp(cc, "broken_heart_bb")>-1) 
+				//{
+				//	Block *someSprite = Block::spriteWithFile( cc, cacher, cacher2, 1, 1);
+				//	someSprite->setPosition(ccp( x, y));
+				//	this->addChild(someSprite);
+				//	break;
+				//}
+				//else if(strcmp(cc, "down_bb")>-1) 
+				//{
+				//	Block *someSprite = Block::spriteWithFile( cc, cacher, cacher2, 1, 1);
+				//	someSprite->setPosition(ccp( x, y));
+				//	this->addChild(someSprite);
+				//	break;
+				//}
+				//else if(strcmp(cc, "mini_ball_bb")>-1) 
+				//{
+				//	Block *someSprite = Block::spriteWithFile( cc, cacher, cacher2, 1, 1);
+				//	someSprite->setPosition(ccp( x, y));
+				//	this->addChild(someSprite);
+				//	break;
+				//}
+				//else if(strcmp(cc, "poison_bb")>-1) 
+				//{
+				//	Block *someSprite = Block::spriteWithFile( cc, cacher, cacher2, 1, 1);
+				//	someSprite->setPosition(ccp( x, y));
+				//	this->addChild(someSprite);
+				//	break;
+				//}
+				//else if(strcmp(cc, "randome_bb")>-1) 
+				//{
+				//	Block *someSprite = Block::spriteWithFile( cc, cacher, cacher2, 1, 1);
+				//	someSprite->setPosition(ccp( x, y));
+				//	this->addChild(someSprite);
+				//	break;
+				//}
+				//else if(strcmp(cc, "reduction_bb")>-1) 
+				//{
+				//	Block *someSprite = Block::spriteWithFile( cc, cacher, cacher2, 1, 1);
+				//	someSprite->setPosition(ccp( x, y));
+				//	this->addChild(someSprite);
+				//	break;
+				//}
+				//else if(strcmp(cc, "speed_ball_bb")>-1) 
+				//{
+				//	Block *someSprite = Block::spriteWithFile( cc, cacher, cacher2, 1, 1);
+				//	someSprite->setPosition(ccp( x, y));
+				//	this->addChild(someSprite);
+				//	break;
+				//}
+				//else if(strcmp(cc, "boom_gb")>-1) 
+				//{
+				//	Block *someSprite = Block::spriteWithFile( cc, cacher, cacher2, 1, 1);
+				//	someSprite->setPosition(ccp( x, y));
+				//	this->addChild(someSprite);
+				//	break;
+				//}
+				//else if(strcmp(cc, "heart_gb")>-1) 
+				//{
+				//	Block *someSprite = Block::spriteWithFile( cc, cacher, cacher2, 1, 1);
+				//	someSprite->setPosition(ccp( x, y));
+				//	this->addChild(someSprite);
+				//	break;
+				//}
+				//else if(strcmp(cc, "star_gb")>-1) 
+				//{
+				//	Block *someSprite = Block::spriteWithFile( cc, cacher, cacher2, 1, 1);
+				//	someSprite->setPosition(ccp( x, y));
+				//	this->addChild(someSprite);
+				//	break;
+				//}
+
 			}
 			++pIter;
 		}
